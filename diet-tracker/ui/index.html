@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Diet Tracker</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem auto; max-width: 800px; padding: 0 1rem; }
+      h1 { margin-bottom: 0.25rem; }
+      .muted { color: #666; }
+      .meal-block { margin: 0.75rem 0; }
+      .meal-input { width: 100%; padding: 0.5rem; }
+      .controls { margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+      input[type="number"] { width: 130px; padding: 0.4rem; }
+      button { padding: 0.5rem 0.75rem; cursor: pointer; }
+      #results { margin-top: 1rem; padding: 1rem; background: #f7f7f7; border-radius: 6px; }
+      .warning { color: #9b5a00; }
+      .food-list { font-size: 0.9rem; background: #eef3ff; padding: 0.75rem; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1>🍽️ Smart Diet Tracker</h1>
+    <p class="muted">Fast calorie + protein tracking for repetitive meals.</p>
+
+    <p class="food-list"><strong>Available foods:</strong> <span id="food-list"></span></p>
+
+    <div id="meals"></div>
+
+    <div class="controls">
+      <button id="add-meal">+ Add Meal</button>
+      <input id="calorie-target" type="number" placeholder="Calorie target" />
+      <input id="protein-target" type="number" placeholder="Protein target (g)" />
+      <button id="calculate">Calculate Day Total</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script type="module" src="../src/app.js"></script>
+  </body>
+</html>
