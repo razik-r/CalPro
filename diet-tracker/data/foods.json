@@ -1,0 +1,11 @@
+{
+  "dosa": { "unit": "1 piece", "calories": 130, "protein": 2.5 },
+  "egg": { "unit": "1 piece", "calories": 70, "protein": 6 },
+  "duck_egg": { "unit": "1 piece", "calories": 130, "protein": 9 },
+  "soya_chunks": { "unit": "per 1g", "calories": 3.5, "protein": 0.52 },
+  "chickpeas": { "unit": "per 1g", "calories": 3.6, "protein": 0.19 },
+  "rice": { "unit": "per 1g cooked", "calories": 1.3, "protein": 0.025 },
+  "milk": { "unit": "per ml", "calories": 0.6, "protein": 0.032 },
+  "almonds": { "unit": "1 piece", "calories": 7, "protein": 0.25 },
+  "fish": { "unit": "per 1g", "calories": 2, "protein": 0.22 }
+}
